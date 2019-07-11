@@ -47,7 +47,7 @@ public class Main {
 
                 if (!input.equals("exit")) {
                     session.getBasicRemote().sendText("javaclient: "+input);
-                    session.getBasicRemote().getSendWriter();
+//                    session.getBasicRemote().getSendWriter();
                 }
             } while (!input.equals("exit"));
         } catch (IOException e) {
